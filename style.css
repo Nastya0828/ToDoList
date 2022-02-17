@@ -1,14 +1,56 @@
 body {
-    background-color: #e2e2e2
+    background-color: #E6E6FA;
 }
 
 .new-task {
-    background-color: #fff;
-    width: 200px;
-    height: 100px;
+   /* background-color: #fff;*/
+    width: 250px;
+    height: 170px;
+    
 }
 
 .save-task {
-    width: 50px;
+    width: 100px;
     height: 40px;
+    background-color:#800080;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: "courier New", Courier, monospace;
+    font-weight: bold;
+    color:#fff;
+    
+}
+
+.input-title, .input-description {
+    width: 220px;
+    height: 30px;
+    margin-top: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.tasks {
+    background-color: #fff;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 500px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: "courier New", Courier, monospace;
+}
+
+.header {
+    font-family: "courier New", Courier, monospace;
+    font-weight: bold;
+}
+
+.header2 {
+    font-family: "courier New", Courier, monospace;
+    font-weight: bold;
+    margin-left: 500px;
 }
