@@ -1,13 +1,14 @@
-body{
+body {
     background-color: #e2e2e2
 }
-.new-task{
+
+.new-task {
     background-color: #fff;
     width: 200px;
     height: 100px;
 }
 
-.save-task{
+.save-task {
     width: 50px;
     height: 40px;
 }
